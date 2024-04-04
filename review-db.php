@@ -11,6 +11,8 @@ function getReviewsByBookId($bookId) {
         return $reviews;
     } catch (PDOException $e) {
         echo $e->getMessage();
+    } catch (Exception $e) {
+        echo $e->getMessage();
     }
 }
 ?>

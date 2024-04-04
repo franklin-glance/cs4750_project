@@ -3,7 +3,6 @@ require("connect-db.php");
 require("user-db.php");
 require("book-db.php");
 require("review-db.php");
-require("collection-db.php");
 session_start();
 
 if (!isset($_GET['book_id'])) {

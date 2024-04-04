@@ -39,7 +39,6 @@ require("header.php");
                     <option value="title">Title</option>
                     <option value="series">Series</option>
                     <option value="format">Format</option>
-                    <!-- Add more options based on your table columns -->
                 </select>
             </div>
             <div class="col-auto">
